@@ -1,0 +1,106 @@
+
+        body {
+    display: flex;
+    background-color: #181A1B;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+#calculator {
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(248, 248, 248, 0.1);
+}
+input[type="text"] {
+    width: 91%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.bsbutton {
+    background-color: #f31e1ed5;
+    width: 115px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+.bsbutton:hover {
+    background-color: #f31e1e;
+    width: 115px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+.dbutton:hover {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+.obutton {
+    background-color: rgba(255, 255, 255, 0.808);
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+.cbutton {
+    background-color: rgba(0, 255, 179, 0.781);
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+.cbutton:hover {
+    background-color: rgb(0, 255, 179);
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+.obutton:hover {
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+.ansbutton {
+    background-color: #9eff01;
+    width: 115px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+.ansbutton:hover {
+    background-color: #9eff01ce;
+    width: 115px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
